@@ -14,6 +14,7 @@
 		9743838F240327D300877658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743838E240327D300877658 /* SceneDelegate.swift */; };
 		974383912403280800877658 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974383902403280800877658 /* LogInViewController.swift */; };
 		974383932403281100877658 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974383922403281100877658 /* FeedViewController.swift */; };
+		9743839524032D4B00877658 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743839424032D4B00877658 /* CameraViewController.swift */; };
 		B97EF9F1DABCE7DC8F577661 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE76AAFA3643939B8981568 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		9743838E240327D300877658 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		974383902403280800877658 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		974383922403281100877658 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		9743839424032D4B00877658 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				9743838E240327D300877658 /* SceneDelegate.swift */,
 				9736046A23FB540D0059E37B /* AppDelegate.swift */,
 				9736047023FB540D0059E37B /* Main.storyboard */,
+				9743839424032D4B00877658 /* CameraViewController.swift */,
 				974383902403280800877658 /* LogInViewController.swift */,
 				974383922403281100877658 /* FeedViewController.swift */,
 				9736047323FB540E0059E37B /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9736046B23FB540D0059E37B /* AppDelegate.swift in Sources */,
+				9743839524032D4B00877658 /* CameraViewController.swift in Sources */,
 				9743838F240327D300877658 /* SceneDelegate.swift in Sources */,
 				974383932403281100877658 /* FeedViewController.swift in Sources */,
 				974383912403280800877658 /* LogInViewController.swift in Sources */,
