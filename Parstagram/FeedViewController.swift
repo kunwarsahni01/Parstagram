@@ -8,12 +8,15 @@
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
 
