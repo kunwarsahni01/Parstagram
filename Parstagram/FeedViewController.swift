@@ -28,7 +28,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let query = PFQuery(className: "Posts")
         query.includeKey("author")
-        query.limit = 2
+        query.limit = 10
         
         query.findObjectsInBackground { (posts, error) in
             if posts != nil {
@@ -59,5 +59,16 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.photoView.af_setImage(withURL: url)
         
         return cell
+    }
+    
+    @IBAction func logOutTapped(_ sender: Any) {
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(identifier: "LoginViewController")
+        
+        let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        
+        sceneDelegate.window?.rootViewController = loginViewController
     }
 }
