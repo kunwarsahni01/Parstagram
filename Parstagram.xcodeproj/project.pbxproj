@@ -16,6 +16,7 @@
 		974383932403281100877658 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974383922403281100877658 /* FeedViewController.swift */; };
 		9743839524032D4B00877658 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743839424032D4B00877658 /* CameraViewController.swift */; };
 		97438397240336E900877658 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97438396240336E900877658 /* PostCell.swift */; };
+		97862AA6240C3C1400DACF92 /* CommentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97862AA5240C3C1400DACF92 /* CommentCellTableViewCell.swift */; };
 		B97EF9F1DABCE7DC8F577661 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE76AAFA3643939B8981568 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		974383922403281100877658 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9743839424032D4B00877658 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		97438396240336E900877658 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		97862AA5240C3C1400DACF92 /* CommentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				9743838E240327D300877658 /* SceneDelegate.swift */,
 				9736046A23FB540D0059E37B /* AppDelegate.swift */,
 				9736047023FB540D0059E37B /* Main.storyboard */,
+				97862AA5240C3C1400DACF92 /* CommentCellTableViewCell.swift */,
 				97438396240336E900877658 /* PostCell.swift */,
 				9743839424032D4B00877658 /* CameraViewController.swift */,
 				974383902403280800877658 /* LogInViewController.swift */,
@@ -220,6 +223,7 @@
 				9743838F240327D300877658 /* SceneDelegate.swift in Sources */,
 				974383932403281100877658 /* FeedViewController.swift in Sources */,
 				974383912403280800877658 /* LogInViewController.swift in Sources */,
+				97862AA6240C3C1400DACF92 /* CommentCellTableViewCell.swift in Sources */,
 				97438397240336E900877658 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
